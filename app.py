@@ -120,4 +120,5 @@ if submit==True:
     
     prediction=model.predict(prediction_data)
 
+
     st.text_area('Result',prediction)
